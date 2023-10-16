@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>temperature convertor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Mulish&family=Roboto+Condensed&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main_container">
+        <div class="container" >
+            <h3>Enter the temperature you would like to convert</h3>
+            <input class="numberinput" type="number">
+            <select name="temp" id="temperature">
+                <option id="celcius" value="celcius">celcius</option>
+                <option id="fahrenheit" value="fahrenheit">fahrenheit</option>
+            </select><br>
+            <h3 class="answer">result</h3>
+            <button onclick="mainFunction()">submit</button>
+        </div>
+    </div>
+</body>
+    <script src="script.js"></script>
+</html>

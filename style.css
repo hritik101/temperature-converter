@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #fcbf49;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 35vh;
+    width: 35vw;
+    background-color: #fb8500;
+
+}
+h3{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+}
+.answer{
+    margin-right: 10px;
+}
+#temperature{
+    margin-top: 45px;
+    margin-left: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.numberinput{
+    margin-left: 172px;
+    width: 80px;
+}
+button{
+    margin-left: 235px;
+    margin-top: 30px;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
